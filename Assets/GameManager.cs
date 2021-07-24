@@ -16,8 +16,6 @@ public class GameManager : MonoBehaviour
 
     void Start(){
         confetti_ps = Confetti.GetComponent<ParticleSystem>();
-        confetti_ps.Play();
-        Debug.Log(confetti_ps.isPlaying);
     }
 
     public void EndGame(){
